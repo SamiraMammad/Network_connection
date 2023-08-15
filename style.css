@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.network-checking{
+    position: fixed;
+    top: -180px;
+    z-index: 9999;
+    background-color: red;
+    color: white;
+    width: 100%;
+    padding: 35px 20px;
+    text-align: center;
+    font-size: 2rem;
+    transition: all .3s ease ;
+}
+.network-checking.active{
+    top: 0;
+}
